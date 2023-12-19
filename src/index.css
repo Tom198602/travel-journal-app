@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding-left: 50px;
+  font-family: 'Comic Sans MS',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.entryform-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+}
+
+.add-button {
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 14px bold;
+  background-color:black;
+  color: white;
+  border-radius: 10px;
+}
+
+.entryform-textarea {
+  height: 200px
+}
+
+.container {
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  padding: 0 25px 25px;
+  max-width: 360px;
+}
+
+.left-bottom-container {
+  border: 1px gray solid;
+  background-color: gray;
+  padding: 0 25px 25px;
+  
+}
+
+.right-container {
+  flex: 1;
+  margin-top: 10px;
+  max-width: 360px;
+}
+
+.title {
+  color: white;
+  padding-left: 25px
+}
+
+.title-container {
+  border: 1px black solid;
+  background-color: black
+}
+
+.edit-comment {
+  display: flex;
+  direction: column;
+}
+
+.entryform-container h2 {
+  color: white;
+}
+
+
